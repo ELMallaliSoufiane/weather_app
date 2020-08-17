@@ -1,0 +1,136 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+#root{
+  display:grid;
+  place-items: center;
+  height:100vh;
+  background-color: #f2f5fa;
+}
+.app{
+  background-image: url('./assets/bg.jpg');
+  background-size: 100% 100%;
+  width:600px;
+  height:400px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.search-box{
+  margin:0px;
+  padding:0px;
+  width:100%;
+  
+}
+.search-bar input{
+  width:80%;
+  height:30px;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.search-bar input:focus{
+  width:80%;
+  height:30px;
+  border: 2px solid rgba(255,255,255,0.8);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.location-box{
+  margin:20px;
+  text-align: center;
+
+}
+.location{
+  font-size: 26px;
+  font-weight: 500;
+ text-shadow: 0px 2px 0px #000000;;
+}
+
+.temperature-box{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin:40px;
+  background-color: rgba(255,255,255,0.2);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius: 2px;
+  
+}
+.temperature{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.temperature-degree{
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 0px 2px 0px #000000;
+  
+}
+.temperature-desc{
+  
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 0px 2px 0px #000000;;
+}
+
+
+
+/*body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  */
