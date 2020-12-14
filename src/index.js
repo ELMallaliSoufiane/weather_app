@@ -75,7 +75,7 @@ class App extends React.Component{
 }
 function iconcheck(xs){
   if(xs.match(/.*cloud.*/i)){
-    return 'Cloud';
+    return 'Clouds';
   }
   if(xs.match(/.*rain.*/i)){
     return 'Rain';
